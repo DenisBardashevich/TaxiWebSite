@@ -1,211 +1,377 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <title>SunnySite - Your Gateway to Sun-Drenched Adventures</title>
+        <meta charset="UTF-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta
+            name="description"
+            content="Explore the world of sun-soaked travel with SunnySite. Celebrate the beauty of nature, enjoy endless adventures, and create memories to last a lifetime."
+        />
+        <link rel="stylesheet" href="style/reset.css" />
+        <link rel="stylesheet" href="style/style.css" />
+        <link rel="shortcut icon" href="favicon.png" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
 
-<head>
-    <title>SunnySite - Your Gateway to Sun-Drenched Adventures</title>
-    <meta charset="UTF-8" />
-    <meta name="format-detection" content="telephone=no" />
-    <meta name="description"
-        content="Explore the world of sun-soaked travel with SunnySite. Celebrate the beauty of nature, enjoy endless adventures, and create memories to last a lifetime." />
-    <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/style.css" />
-    <link rel="shortcut icon" href="favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-</head>
+    <body>
+        <header>
+            <!-- Navbar -->
+            <nav>
+                <div class="container">
+                    <div class="navbar">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="img/logo.png" alt="logo" />
+                                TáxiJá
+                            </a>
+                        </div>
+                        <ul class="menu">
+                            <li class="menu__item">
+                                <a
+                                    href="index.html#discover"
+                                    class="menu__item-link"
+                                    data-scroll
+                                    >Descubra</a
+                                >
+                            </li>
+                            <li class="menu__item">
+                                <a
+                                    href="index.html#tours"
+                                    class="menu__item-link"
+                                    data-scroll
+                                    >Serviços</a
+                                >
+                            </li>
+                            <li class="menu__item">
+                                <a
+                                    href="index.html#about"
+                                    class="menu__item-link"
+                                    data-scroll
+                                    >Sobre</a
+                                >
+                            </li>
+                            <li class="menu__item">
+                                <a
+                                    href="index.html#faq"
+                                    class="menu__item-link"
+                                    data-scroll
+                                    >Perguntas</a
+                                >
+                            </li>
+                            <li class="menu__item">
+                                <a
+                                    href="index.html#tariff"
+                                    class="menu__item-link"
+                                    data-scroll
+                                    >Tarifas</a
+                                >
+                            </li>
+                            <li class="menu__item">
+                                <a
+                                    href="index.html#contact"
+                                    class="menu__item-link"
+                                    data-scroll
+                                    >Contato</a
+                                >
+                            </li>
+                        </ul>
+                        <div class="burger">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
 
-<body>
+        <main>
+            <section class="hero" id="discover">
+                <img class="backgroundMain" src="img/background.webp" alt="" />
+                <div class="container">
+                    <div class="hero__wrapper wrap">
+                        <div class="hero__box col">
+                            <h1>
+                                Descubra o Seu <br />
+                                Próximo Destino
+                            </h1>
+                            <p>
+                                Viaje com conforto e segurança <br />
+                                com o melhor serviço de táxi <br />
+                                em Portugal.
+                            </p>
+                            <button class="btn">Chamar Táxi</button>
+                        </div>
 
+                        <div class="hero__img">
+                            <img src="img/5taxi.jpg" alt="img" />
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-    <header>
-        <!-- Navbar -->
-        <nav>
+            <section class="tours" id="tours">
+                <div class="container">
+                    <h2 class="section-title">Nossos Carros</h2>
+                    <div class="tours__wrapper">
+                        <div class="tours__card">
+                            <img src="img/2taxi.jpg" alt="Sedan Conforto" />
+                            <h3>Sedan Conforto</h3>
+                        </div>
+
+                        <div class="tours__card">
+                            <img src="img/3taxi.jpg" alt="SUV Luxo" />
+                            <h3>SUV Luxo</h3>
+                        </div>
+
+                        <div class="tours__card">
+                            <img src="img/1taxi.jpg" alt="Carro Executivo" />
+                            <h3>Carro Executivo</h3>
+                        </div>
+
+                        <div class="tours__card">
+                            <img src="img/4taxi.jpg" alt="VAN Familiar" />
+                            <h3>VAN Familiar</h3>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="about" id="about">
+                <div class="container">
+                    <h2 class="section-title">Sobre</h2>
+                    <div class="about__wrapper">
+                        <div class="about__item">
+                            <img src="img/Nossa.jpg" alt="img" />
+                            <h3>Nossa Missão</h3>
+                            <p>
+                                Proporcionar um serviço de táxi confiável,
+                                seguro e acessível para todos.
+                            </p>
+                        </div>
+                        <div class="about__item">
+                            <img src="img/team.jpg" alt="img" />
+                            <h3>Nossa Equipe</h3>
+                            <p>
+                                Contamos com motoristas experientes e veículos
+                                modernos para garantir a melhor experiência.
+                            </p>
+                        </div>
+                        <div class="about__item">
+                            <img src="img/speed.jpg" alt="img" />
+                            <h3>Nossa Visão</h3>
+                            <p>
+                                Ser a escolha número um para transporte rápido e
+                                seguro em Portugal.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="faq-section" id="faq">
+                <h2 class="faq-title">Perguntas Frequentes</h2>
+                <div class="faq-container">
+                  <div class="faq-item">
+                    <button class="faq-question">
+                      Como posso solicitar um táxi? <span>+</span>
+                    </button>
+                    <div class="faq-answer">
+                      <p>
+                        Você pode solicitar um táxi facilmente pelo nosso aplicativo "TáxiJá". Basta baixar o app e inserir seu destino
+                        para encontrar o carro mais próximo disponível.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="faq-item">
+                    <button class="faq-question">Como faço para pagar minha corrida? <span>+</span></button>
+                    <div class="faq-answer">
+                      <p>
+                        O pagamento pode ser feito diretamente pelo aplicativo, utilizando cartões de crédito, débito ou outros métodos
+                        de pagamento disponíveis.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="faq-item">
+                    <button class="faq-question">Os motoristas são avaliados? <span>+</span></button>
+                    <div class="faq-answer">
+                      <p>
+                        Sim, todos os motoristas são avaliados pelos passageiros após cada viagem. Isso nos ajuda a manter um alto
+                        padrão de qualidade e segurança.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="faq-item">
+                    <button class="faq-question">Posso agendar uma corrida para mais tarde? <span>+</span></button>
+                    <div class="faq-answer">
+                      <p>
+                        Sim, você pode agendar uma corrida para uma hora futura diretamente no aplicativo. Basta escolher a opção de
+                        "Agendamento" e definir o horário desejado.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="faq-item">
+                    <button class="faq-question">Qual é o preço da corrida? <span>+</span></button>
+                    <div class="faq-answer">
+                      <p>
+                        O preço da corrida depende da distância, do tempo estimado e da demanda no momento. O aplicativo fornece uma
+                        estimativa do custo antes de você confirmar a solicitação.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="faq-item">
+                    <button class="faq-question">O que fazer se o motorista não chegar? <span>+</span></button>
+                    <div class="faq-answer">
+                      <p>
+                        Caso o motorista não chegue no tempo estimado, você pode entrar em contato diretamente com ele através do
+                        aplicativo ou solicitar outro carro.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="faq-item">
+                    <button class="faq-question">Como posso alterar o destino durante a corrida? <span>+</span></button>
+                    <div class="faq-answer">
+                      <p>
+                        Você pode alterar o destino a qualquer momento pelo aplicativo. Basta abrir o app e editar o endereço para
+                        modificar a rota da viagem.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="faq-item">
+                    <button class="faq-question">Como posso entrar em contato com o suporte ao cliente? <span>+</span></button>
+                    <div class="faq-answer">
+                      <p>
+                        Você pode nos contatar por e-mail em suporte@taxija.com ou ligar para nossa central de atendimento a qualquer
+                        momento.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </section>
+                                                  
+
+            <section class="tariff" id="tariff">
+                <div class="container">
+                    <h2 class="section-title">Tarifas</h2>
+                    <div class="tarifs__wrapper">
+                        <div class="tarifs__card">
+                            <h2>Padrão</h2>
+                            <p>
+                                Viagem econômica e confortável para qualquer
+                                destino.
+                            </p>
+                            <h4>€10 <span>inicial</span></h4>
+                            <button>Reservar</button>
+                        </div>
+
+                        <div class="tarifs__card">
+                            <h2>Executivo</h2>
+                            <p>
+                                Mais espaço e comodidade para viagens
+                                sofisticadas.
+                            </p>
+                            <h4>€25 <span>inicial</span></h4>
+                            <button>Reservar</button>
+                        </div>
+
+                        <div class="tarifs__card">
+                            <h2>Luxo</h2>
+                            <p>
+                                Experiência premium com veículos de alto padrão.
+                            </p>
+                            <h4>€50 <span>inicial</span></h4>
+                            <button>Reservar</button>
+                        </div>
+
+                        <div class="tarifs__card">
+                            <h2>VAN Familiar</h2>
+                            <p>
+                                Espaço e conforto para grupos e famílias em
+                                viagens.
+                            </p>
+                            <h4>€50 <span>inicial</span></h4>
+                            <button>Reservar</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact" id="contact">
+                <div class="container">
+                    <div class="contact__wrapper">
+                        <h2>Deixe sua solicitação</h2>
+                        <form action="thanks_form.php" method="post" class="form">
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Digite seu nome"
+                                required
+                            />
+                
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Digite seu e-mail"
+                                required
+                            />
+                
+                            <label for="message">Mensagem</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                placeholder="Digite seu comentário"
+                                rows="5"
+                                required
+                            ></textarea>
+                
+                            <div class="checkbox">
+                                <input
+                                    type="checkbox"
+                                    id="privacy-policy"
+                                    value="on"
+                                    name="privacy"
+                                    required
+                                />
+                                <label for="privacy-policy">
+                                    Eu concordo com a
+                                    <a
+                                        href="privacy-policy.html"
+                                        target="_blank"
+                                    >Política de Privacidade</a>
+                                </label>
+                            </div>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+                            </section>
+        </main>
+        <footer class="footer">
             <div class="container">
-                <div class="navbar">
-                    <div class="logo">
-                        <a href="index.html">
-                            <img src="img/logo.png" alt="logo">
-                            TáxiJá
+                <div class="footer__wrapper">
+                    <div class="footer__col col">
+                        <a class="logo" href="index.html">
+                            <img src="img/logo.png" alt="img-logo" />
                         </a>
                     </div>
-                    <ul class="menu">
-                        <li class="menu__item"><a href="index.html#discover" class="menu__item-link"
-                                data-scroll>Descubra</a></li>
-                        <li class="menu__item"><a href="index.html#tours" class="menu__item-link" data-scroll>Serviços</a>
-                        </li>
-                        <li class="menu__item"><a href="index.html#about" class="menu__item-link" data-scroll>Sobre</a>
-                        </li>
-                        <li class="menu__item"><a href="index.html#partners" class="menu__item-link"
-                                data-scroll>Parceiros</a></li>
-                        <li class="menu__item"><a href="index.html#tariff" class="menu__item-link"
-                                data-scroll>Tarifas</a></li>
-                        <li class="menu__item"><a href="index.html#contact" class="menu__item-link"
-                                    data-scroll>Contato</a></li>
-                    </ul>
-                    <div class="burger">
-                        <span></span>
+
+                    <div class="footer__col col">
+                        <a href="terms-conditions.html">Terms Conditions</a>
+                        <a href="privacy-policy.html">Privacy Policy</a>
+                    </div>
+
+                    <div class="footer__col col">
+                        <a href="index.html#discover">Discover</a>
+                        <a href="index.html#tours">Tours</a>
+                        <a href="index.html#about">About</a>
+                        <a href="index.html#faq">Perguntas</a>
+                        <a href="index.html#tariff">Tariff</a>
                     </div>
                 </div>
             </div>
-        </nav>
-    </header>
+        </footer>
 
-    <main>
-        <section class="hero" id="discover">
-            <img class="backgroundMain" src="img/background.webp" alt="">
-            <div class="container">
-                <div class="hero__wrapper wrap">
-                    <div class="hero__box col">
-                        <h1>Descubra o Seu <br> Próximo Destino</h1>
-                        <p>Viaje com conforto e segurança <br> com o melhor serviço de táxi <br> em Portugal.</p>
-                        <button class="btn">Chamar Táxi</button>
-                    </div>
-
-                    <div class="hero__img">
-                        <img src="img/1taxi.jpg" alt="img">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="tours" id="tours">
-            <div class="container">
-                <h2 class="section-title">Serviços</h2>
-                <div class="tours__wrapper">
-                    <div class="tours__card">
-                        <img src="img/tour-1.jpg" alt="img">
-                        <h3>Viagens Urbanas</h3>
-                        <h5>421✅</h5>
-                    </div>
-
-                    <div class="tours__card">
-                        <img src="img/tour-2.jpg" alt="img">
-                        <h3>Transfers para Aeroporto</h3>
-                        <h5>731✅</h5>
-                    </div>
-
-                    <div class="tours__card">
-                        <img src="img/tour-3.jpg" alt="img">
-                        <h3>Serviço Executivo</h3>
-                        <h5>119✅</h5>
-                    </div>
-
-                    <div class="tours__card">
-                        <img src="img/tour-4.jpg" alt="img">
-                        <h3>Táxi para Turismo</h3>
-                        <h5>601✅</h5>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="about" id="about">
-            <div class="container">
-                <h2 class="section-title">Sobre</h2>
-                <div class="about__wrapper">
-                    <div class="about__item">
-                        <img src="img/about-1.jpg" alt="img">
-                        <h3>Nossa Missão</h3>
-                        <p>Proporcionar um serviço de táxi confiável, seguro e acessível para todos.</p>
-                    </div>
-                    <div class="about__item">
-                        <img src="img/about-2.png" alt="img">
-                        <h3>Nossa Equipe</h3>
-                        <p>Contamos com motoristas experientes e veículos modernos para garantir a melhor experiência.</p>
-                    </div>
-                    <div class="about__item">
-                        <img src="img/about-3.png" alt="img">
-                        <h3>Nossa Visão</h3>
-                        <p>Ser a escolha número um para transporte rápido e seguro em Portugal.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="logos" id="partners">
-            <div class="container">
-                <h2 class="section-title">Parceiros</h2>
-                <div class="logos__wrapper">
-                    <img src="img/logos-1.jpg" alt="img">
-                    <img src="img/logos-2.jpg" alt="img">
-                    <img src="img/logos-3.jpg" alt="img">
-                    <img src="img/logos-4.jpg" alt="img">
-                </div>
-            </div>
-        </section>
-
-        <section class="tariff" id="tariff">
-            <div class="container">
-                <h2 class="section-title">Tarifas</h2>
-                <div class="tarifs__wrapper">
-                    <div class="tarifs__card">
-                        <h2>Padrão</h2>
-                        <p>Viagem econômica e confortável para qualquer destino.</p>
-                        <h4>€10 <span>inicial</span></h4>
-                        <button>Reservar</button>
-                    </div>
-
-                    <div class="tarifs__card">
-                        <h2>Executivo</h2>
-                        <p>Mais espaço e comodidade para viagens sofisticadas.</p>
-                        <h4>€25 <span>inicial</span></h4>
-                        <button>Reservar</button>
-                    </div>
-
-                    <div class="tarifs__card">
-                        <h2>Luxo</h2>
-                        <p>Experiência premium com veículos de alto padrão.</p>
-                        <h4>€50 <span>inicial</span></h4>
-                        <button>Reservar</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="contact" id="contact">
-            <div class="container">
-                <div class="contact__wrapper">
-                    <form id="form" autocomplete="off" action="send-form.php" method="post" class="form">
-                        <h2 class="section-title">Entre em Contato</h2>
-                        <input type="text" id="username" name="username" placeholder="Nome" required />
-                        <input type="email" id="email" name="email" placeholder="Email" required />
-                        <textarea id="comment" cols="30" rows="3" name="comment" placeholder="Mensagem..." required></textarea>
-                        <button type="submit" class="form__button">Enviar</button>
-                    </form>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer__wrapper">
-                <div class="footer__col col">
-                    <a class="logo" href="index.html">
-                        <img src="img/logo.png" alt="img-logo">
-                    </a>
-                </div>
-
-                <div class="footer__col col">
-                    <a href="terms-conditions.html">Terms Conditions</a>
-                    <a href="privacy-policy.html">Privacy Policy</a>
-                </div>
-
-                <div class="footer__col col">
-                    <a href="index.html#discover">Discover</a>
-                    <a href="index.html#tours">Tours</a>
-                    <a href="index.html#about">About</a>
-                    <a href="index.html#partners">Partners</a>
-                    <a href="index.html#tariff">Tariff</a>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-
-
-
-
-
-    <script src="js/main.js"></script>
-</body>
-
+        <script src="js/main.js"></script>
+    </body>
 </html>

@@ -47,3 +47,25 @@ function burgerMenu() {
   }
   window.addEventListener('scroll', fixedNav)
   
+
+  document.querySelectorAll('.faq-item h3.question').forEach((item) => {
+    item.addEventListener('click', () => {
+      const parent = item.parentElement;
+      parent.classList.toggle('active');
+    });
+  });
+  
+  
+  
+  
+  
+  document.querySelectorAll('.faq-question').forEach((button) => {
+    button.addEventListener('click', () => {
+      const faqItem = button.parentElement;
+      const isOpen = faqItem.classList.contains('active');
+      document.querySelectorAll('.faq-item').forEach((item) => item.classList.remove('active'));
+      if (!isOpen) {
+        faqItem.classList.add('active');
+      }
+    });
+  });
