@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>TáxiJá - Sua Conexão para Viagens Rápidas pelo Brasil</title>
+        <meta
+            name="description"
+            content="Descubra o mundo de viagens confortáveis e seguras com o TáxiJá. Aproveite o conforto, a segurança e um atendimento de qualidade a cada passo da sua jornada pelo Brasil."
+        />
+        <link rel="stylesheet" href="style/reset.css" />
+        <link rel="stylesheet" href="style/style.css" />
+        <link rel="shortcut icon" href="img/favicon.ico" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+
+    <body>
+        <header>
+
+            <nav>
+                <div class="container">
+                    <div class="navbar">
+                        <div class="logo">
+                            <a href="index.html">
+                                <img src="img/logo.jpg" alt="logo" />
+                                TáxiJá
+                            </a>
+                        </div>
+                        <ul class="menu">
+                            <li class="menu__item">
+                                <a
+                                    href="index.html#discover"
+                                    class="menu__item-link"
+                                    data-scroll
+                                    >Descubra</a
+                                >
+                            </li>
+                            <li class="menu__item">
+                                <a
+                                    href="index.html#tours"
+                                    class="menu__item-link"
+                                    data-scroll
+                                    >Serviços</a
+                                >
+                            </li>
+                            <li class="menu__item">
+                                <a
+                                    href="index.html#about"
+                                    class="menu__item-link"
+                                    data-scroll
+                                    >Sobre</a
+                                >
+                            </li>
+                            <li class="menu__item">
+                                <a
+                                    href="index.html#faq"
+                                    class="menu__item-link"
+                                    data-scroll
+                                    >Perguntas</a
+                                >
+                            </li>
+                            <li class="menu__item">
+                                <a
+                                    href="index.html#tariff"
+                                    class="menu__item-link"
+                                    data-scroll
+                                    >Tarifas</a
+                                >
+                            </li>
+                            <li class="menu__item">
+                                <a
+                                    href="index.html#contact"
+                                    class="menu__item-link"
+                                    data-scroll
+                                    >Contato</a
+                                >
+                            </li>
+                        </ul>
+                        <div class="burger">
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="contact" id="contact">
+                <h2 class="vegas-title">Vagas</h2>
+                <div class="container">
+                    <div class="contact__wrapper">
+                        <img class="taxi-driver-img" src="img/taxi-driver.jpg" alt="Taxi driver">
+                        <form action="thanks_form.php" method="post" class="form">
+                            <h2>Deixe sua solicitação</h2>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Digite seu nome"
+                                required
+                            />
+                
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Digite seu e-mail"
+                                required
+                            />
+                
+                            <label for="message">Mensagem</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                placeholder="Digite seu comentário"
+                                rows="5"
+                                required
+                            ></textarea>
+                
+                            <div class="checkbox">
+                                <input
+                                    type="checkbox"
+                                    id="privacy-policy"
+                                    value="on"
+                                    name="privacy"
+                                    required
+                                />
+                                <label for="privacy-policy">
+                                    Eu concordo com a
+                                    <a
+                                        href="privacy-policy.html"
+                                        target="_blank"
+                                    >Política de Privacidade</a>
+                                </label>
+                            </div>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <div>
+                    <img src="" alt="">
+                    <p>
+                        Início Rápido.
+                    </p>
+                    <p>
+                        Do pedido ao primeiro cliente — em poucas horas.
+                    </p>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <p>Dinheiro — imediatamente.</p>
+                    <p>
+                        O pagamento por pedidos em dinheiro será recebido no primeiro dia de trabalho.*
+                    </p>
+                </div>
+                <div>
+                    <img src="" alt="">
+                    <p>Horário flexível.</p>
+                    <p>
+                        Trabalhe algumas horas por dia ou em turnos completos.
+                    </p>
+                </div>
+            </section>
+            
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__wrapper">
+                    <div class="footer__col col">
+                        <a class="logo" href="index.html">
+                            <img src="img/logo.jpg" alt="img-logo" />
+                            
+                        </a>
+                    </div>
+
+                    <div class="footer__col col">
+                        <a href="terms-conditions.html">Termos e Condições</a>
+                        <a href="privacy-policy.html">Política de Privacidade</a>
+                    </div>
+                    
+                    <div class="footer__col col">
+                        <a href="index.html#discover">Descubra</a>
+                        <a href="index.html#tours">Passeios</a>
+                        <a href="index.html#about">Sobre</a>
+                        <a href="index.html#faq">Perguntas Frequentes</a>
+                        <a href="index.html#tariff">Tarifa</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

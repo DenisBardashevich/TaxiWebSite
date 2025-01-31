@@ -303,13 +303,6 @@ nav {
   border: 5px solid rgba(255, 255, 255, 0.7); /* Цвет и стиль границы */
   
 }
-
-
-
-.tours {
-  /* .tours__wrapper */
-  /* .tours__card */
-}
 .tours__wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
@@ -354,9 +347,6 @@ nav {
   width: 100%;
 }
 
-.logos {
-  /* .logos__wrapper */
-}
 .logos__wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
@@ -367,11 +357,6 @@ nav {
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
-}
-
-.tarifs {
-  /* .tarifs__wrapper */
-  /* .tarifs__card */
 }
 .tarifs__wrapper {
   display: grid;
@@ -393,9 +378,6 @@ nav {
   padding: 80px 30px;
   transition: all 0.3s;
 }
-.tarifs__card:hover {
-  box-shadow: 1px 1px 30px 1px rgba(240, 0, 0, 0.5);
-}
 .tarifs__card h4 {
   font-size: 24px;
 }
@@ -409,9 +391,6 @@ nav {
   border-radius: 10px;
   margin-top: 30px;
   transition: all 0.3s;
-}
-.tarifs__card button:hover {
-  opacity: 0.8;
 }
 .tarifs__card p {
   color: gray;
@@ -456,10 +435,6 @@ nav {
   color: #fff;
   transition: all 0.3s;
 }
-.footer__col a:hover {
-  opacity: 0.8;
-  text-decoration: underline;
-}
 @media (max-width: 480px) {
   .footer__col a {
     text-align: center;
@@ -469,9 +444,6 @@ nav {
   }
 }
 
-.contact {
-  /* .contact__wrapper */
-}
 .contact__wrapper {
   padding: 100px 80px;
   background: rgb(221, 221, 221);
@@ -499,7 +471,6 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  /* .form__button */
 }
 .form input, .form textarea {
   border: 1px solid gray;
@@ -558,10 +529,6 @@ nav {
   outline: none;
   color: #333;
   transition: background-color 0.3s;
-}
-
-.faq-question:hover {
-  background-color: #ececec;
 }
 
 .faq-question span {
@@ -650,21 +617,55 @@ nav {
   color: #666;
 }
 
-.benefit-item:hover {
-  transform: translateY(-10px);
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
-}
-
 a{
   transition: all 0.2s ease-in-out;
   text-decoration: underline;
 }
+
+.vegas-title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.taxi-driver-img {
+  width: 500px;
+  border-radius: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width:1025px) {
   a:hover{
     color: #927501;
   }
   .btn:hover {
     background-color: #fbd642;
+  }
+  .tarifs__card:hover {
+    box-shadow: 1px 1px 30px 1px rgba(240, 0, 0, 0.5);
+  }
+  .tarifs__card button:hover {
+    opacity: 0.8;
+  }
+  .footer__col a:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+  }
+  .faq-question:hover {
+    background-color: #ececec;
+  }
+  .benefit-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
   }
 }
 
