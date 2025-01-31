@@ -29,7 +29,7 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: #FFCC00; /* Цвет фона */
+  background-color: #FFCC00;
   z-index: 1000;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
@@ -51,6 +51,15 @@ main{
   background-color: #FFCC00;
   color: #fff;
   border-radius: 10px;
+  height: 40px;
+  width: 120px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease,
+              color 0.3s ease;
 }
 
 .section-title {
@@ -654,6 +663,8 @@ a{
   a:hover{
     color: #927501;
   }
-  
+  .btn:hover {
+    background-color: #fbd642;
+  }
 }
 
