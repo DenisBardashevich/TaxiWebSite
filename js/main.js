@@ -69,3 +69,19 @@ function burgerMenu() {
       }
     });
   });
+
+
+  
+  let index = 0;
+  function showReview() {
+      const slider = document.getElementById('slider');
+      slider.style.transform = `translateX(${-index * 100}%)`;
+  }
+  function nextReview() {
+      index = (index + 1) % 4;
+      showReview();
+  }
+  function prevReview() {
+      index = (index - 1 + 4) % 4;
+      showReview();
+  }
