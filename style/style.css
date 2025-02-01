@@ -354,7 +354,7 @@ nav {
 .work-blank {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 30px 15px;
 }
 .work-blank-num {
     margin-top: 20px;
@@ -374,7 +374,7 @@ nav {
 .city-selection {
     max-width: 1100px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 30px 15px;
 }
 .city-title {
     text-align: center;
