@@ -354,6 +354,7 @@ nav {
 .work-blank {
     max-width: 1100px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 .work-blank-num {
     margin-top: 20px;
@@ -369,6 +370,28 @@ nav {
 }
 .work-blank-item p {
     margin-top: 10px;
+}
+.city-selection {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.city-title {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.address-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.contact-info {
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.address-link {
+    text-decoration: none;
+    color: black;
 }
 
 .logos__wrapper {
@@ -475,10 +498,37 @@ nav {
     align-items: center;
     justify-content: center;
 }
+.contact__wrapper-work {
+    padding: 100px 80px;
+    background: rgb(221, 221, 221);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.taxi-driver-img {
+    width: 500px;
+    border-radius: 30px;
+}
+@media (max-width: 1240px) {
+    .contact__wrapper-work {
+        flex-direction: column;
+    }
+    .taxi-driver-img {
+        width: 460px;
+    }
+}
 @media (max-width: 768px) {
     .contact__wrapper {
         padding: 50px;
         border-radius: 20px;
+    }
+    .contact__wrapper-work {
+        padding: 50px;
+        border-radius: 20px;
+    }
+    .taxi-driver-img {
+        width: 360px;
     }
 }
 @media (max-width: 480px) {
@@ -486,6 +536,14 @@ nav {
         padding: 30px;
         display: flex;
         flex-direction: column;
+    }
+    .contact__wrapper-work {
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+    .taxi-driver-img {
+        width: 300px;
     }
 }
 
@@ -650,11 +708,6 @@ a {
 .vegas-title {
     text-align: center;
     margin-bottom: 10px;
-}
-
-.taxi-driver-img {
-    width: 500px;
-    border-radius: 30px;
 }
 
 .slider {
