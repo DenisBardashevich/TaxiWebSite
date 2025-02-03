@@ -311,7 +311,7 @@ nav {
     margin: 0 auto;
     color: white;
     position: relative;
-    height: 100vh;
+    height: 1000px;
 }
 .hero__img img {
     width: 100%;
@@ -471,6 +471,9 @@ nav {
         align-items: center;
         text-align: center;
         justify-content: center;
+    }
+    .hero {
+        height: 600px;
     }
 }
 .footer__col {
