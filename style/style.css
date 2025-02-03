@@ -835,6 +835,12 @@ a {
     background-color: #a2b6ff;
 }
 
+.review img {
+    width: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
 @media (max-width: 600px) {
     .vacanci-title {
         padding: 15px;
